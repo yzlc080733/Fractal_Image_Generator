@@ -5,10 +5,14 @@ Sometimes you may want your wallpapers/backgrounds to be different from others. 
 ## Newton Fractal (Dark wallpaper)
 See newton_wallpaper.py
 
-This code uses opencv-python and numpy. It may run about 20min to generate a wallpaper (this time may vary if you change the parameters e.g. wallpaper shape in the code).
+This code uses opencv-python and numpy. It may run about 20 min to generate a wallpaper (this time may vary if you change the parameters e.g. wallpaper shape in the code).
 
 This code generates 10 images and calculate the average of them to generate a wallpaper. Each image is generated with Newton fractal from 10 randomly generated complex points. The color is set to dirtribute evenly in the range of [0, 0.3]. The default shape of the images is 1920x1080.
 
 Below is an example:
 
 ![example image](./newton_example.png)
+
+## Newton Fractal (Dark wallpaper) *with PyTorch GPU acceleration*
+newton_torch.py: Newton fractal image generator with PyTorch GPU accelaration.
+Reduces the running time from around 20 min to around 1 min. Tested on Linux Mint 20.2, NVIDIA RTX 3080.
