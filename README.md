@@ -18,4 +18,4 @@ newton_torch.py: Newton fractal image generator with PyTorch GPU accelaration.
 Reduces the running time from around 20 min to around 1 min. Tested on Linux Mint 20.2, NVIDIA RTX 3080.
 
 ## Some Notes
-* My college found that the PyTorch version of the code cannot run with the 'mps' devices. This issue is probably caused by the operations on complex numbers. Unfortunately, I cannot solve this problem now because I do not have such a device.
+* My colleague found that the PyTorch version of the code cannot run with the 'mps' devices. This issue is probably caused by the operations on complex numbers. Unfortunately, I cannot solve this problem now because I do not have such a device.
